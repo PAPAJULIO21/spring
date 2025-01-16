@@ -1,0 +1,19 @@
+use spring;
+
+create table countries(
+	id bigint primary key,
+	name varchar(255) not null,
+	population bigint not null
+);
+
+INSERT INTO countries (id, name, population) VALUES
+(1, 'United States', 331002651),
+(2, 'China', 1444216107),
+(3, 'India', 1393409038),
+(4, 'Brazil', 213993437),
+(5, 'Russia', 145912025),
+(6, 'Japan', 126476461),
+(7, 'Germany', 83240525),
+(8, 'United Kingdom', 68207114),
+(9, 'France', 67391582),
+(10, 'Italy', 60367477);
